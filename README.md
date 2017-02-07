@@ -30,8 +30,10 @@ if you want a interactive transition, implement this method as well:
 
 
 ####Learn from
-*[View Controller 转场](https://objccn.io/issue-5-3/)
-*[自定义 ViewController 容器转场](https://objccn.io/issue-12-3/)
-*[BlurTransition](https://github.com/Vaberer/BlurTransition)
+[View Controller 转场](https://objccn.io/issue-5-3/)
+
+[自定义 ViewController 容器转场](https://objccn.io/issue-12-3/)
+
+[BlurTransition](https://github.com/Vaberer/BlurTransition)
 
 
