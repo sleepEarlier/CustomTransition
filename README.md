@@ -2,7 +2,7 @@
 Demo shows how to custom transition
 
 ### transition by call addChildViewController
-![addChildViewController]()
+![addChildViewController](https://github.com/sleepEarlier/CustomTransition/blob/master/addChild.gif)
 
 
 1. provide an Animator object confirm to `UIViewControllerAnimatedTransitioning`, and implement `- (NSTimeInterval)transitionDuration:(nullable id <UIViewControllerContextTransitioning>)transitionContext` method which return duration of animation, implement `- (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext` method which perform the custom animation, dont forget to invoke `[transitionContext completeTransition:]` when animation complete.
@@ -12,7 +12,7 @@ Demo shows how to custom transition
 3. call `[animator animateTransition:context]` to perform custom transition
 
 ### transition under navigation controller
-![pop]()
+![pop](https://github.com/sleepEarlier/CustomTransition/blob/master/pop.gif)
 
 1. set navigation controller's delegate, implement the follow method:
 ```objective-C
@@ -29,7 +29,9 @@ if you want a interactive transition, implement this method as well:
 ```
 
 
-
-
+####Learn from
+[View Controller 转场](https://objccn.io/issue-5-3/)
+[自定义 ViewController 容器转场](https://objccn.io/issue-12-3/)
+[BlurTransition](https://github.com/Vaberer/BlurTransition)
 
 
