@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC771B3C1E482FD80016DBEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC771B3B1E482FD80016DBEB /* main.m */; };
+		DC771B3F1E482FD80016DBEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC771B3E1E482FD80016DBEB /* AppDelegate.m */; };
+		DC771B421E482FD80016DBEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC771B411E482FD80016DBEB /* ViewController.m */; };
+		DC771B451E482FD80016DBEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC771B431E482FD80016DBEB /* Main.storyboard */; };
+		DC771B471E482FD80016DBEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC771B461E482FD80016DBEB /* Assets.xcassets */; };
+		DC771B4A1E482FD80016DBEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC771B481E482FD80016DBEB /* LaunchScreen.storyboard */; };
+		DC771B531E482FEE0016DBEB /* NavigationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC771B521E482FEE0016DBEB /* NavigationDelegate.m */; };
+		DC771B561E48321A0016DBEB /* Animator.m in Sources */ = {isa = PBXBuildFile; fileRef = DC771B551E48321A0016DBEB /* Animator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC771B371E482FD80016DBEB /* PushAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC771B3B1E482FD80016DBEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC771B3D1E482FD80016DBEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC771B3E1E482FD80016DBEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC771B401E482FD80016DBEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC771B411E482FD80016DBEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC771B441E482FD80016DBEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC771B461E482FD80016DBEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC771B491E482FD80016DBEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC771B4B1E482FD80016DBEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC771B511E482FEE0016DBEB /* NavigationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationDelegate.h; sourceTree = "<group>"; };
+		DC771B521E482FEE0016DBEB /* NavigationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationDelegate.m; sourceTree = "<group>"; };
+		DC771B541E48321A0016DBEB /* Animator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animator.h; sourceTree = "<group>"; };
+		DC771B551E48321A0016DBEB /* Animator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC771B341E482FD80016DBEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC771B2E1E482FD80016DBEB = {
+			isa = PBXGroup;
+			children = (
+				DC771B391E482FD80016DBEB /* PushAnimator */,
+				DC771B381E482FD80016DBEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC771B381E482FD80016DBEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC771B371E482FD80016DBEB /* PushAnimator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC771B391E482FD80016DBEB /* PushAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				DC771B3D1E482FD80016DBEB /* AppDelegate.h */,
+				DC771B3E1E482FD80016DBEB /* AppDelegate.m */,
+				DC771B401E482FD80016DBEB /* ViewController.h */,
+				DC771B411E482FD80016DBEB /* ViewController.m */,
+				DC771B511E482FEE0016DBEB /* NavigationDelegate.h */,
+				DC771B521E482FEE0016DBEB /* NavigationDelegate.m */,
+				DC771B541E48321A0016DBEB /* Animator.h */,
+				DC771B551E48321A0016DBEB /* Animator.m */,
+				DC771B431E482FD80016DBEB /* Main.storyboard */,
+				DC771B461E482FD80016DBEB /* Assets.xcassets */,
+				DC771B481E482FD80016DBEB /* LaunchScreen.storyboard */,
+				DC771B4B1E482FD80016DBEB /* Info.plist */,
+				DC771B3A1E482FD80016DBEB /* Supporting Files */,
+			);
+			path = PushAnimator;
+			sourceTree = "<group>";
+		};
+		DC771B3A1E482FD80016DBEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC771B3B1E482FD80016DBEB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC771B361E482FD80016DBEB /* PushAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC771B4E1E482FD80016DBEB /* Build configuration list for PBXNativeTarget "PushAnimator" */;
+			buildPhases = (
+				DC771B331E482FD80016DBEB /* Sources */,
+				DC771B341E482FD80016DBEB /* Frameworks */,
+				DC771B351E482FD80016DBEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushAnimator;
+			productName = PushAnimator;
+			productReference = DC771B371E482FD80016DBEB /* PushAnimator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC771B2F1E482FD80016DBEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = KimiLin;
+				TargetAttributes = {
+					DC771B361E482FD80016DBEB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC771B321E482FD80016DBEB /* Build configuration list for PBXProject "PushAnimator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC771B2E1E482FD80016DBEB;
+			productRefGroup = DC771B381E482FD80016DBEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC771B361E482FD80016DBEB /* PushAnimator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC771B351E482FD80016DBEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC771B4A1E482FD80016DBEB /* LaunchScreen.storyboard in Resources */,
+				DC771B471E482FD80016DBEB /* Assets.xcassets in Resources */,
+				DC771B451E482FD80016DBEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC771B331E482FD80016DBEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC771B561E48321A0016DBEB /* Animator.m in Sources */,
+				DC771B421E482FD80016DBEB /* ViewController.m in Sources */,
+				DC771B3F1E482FD80016DBEB /* AppDelegate.m in Sources */,
+				DC771B531E482FEE0016DBEB /* NavigationDelegate.m in Sources */,
+				DC771B3C1E482FD80016DBEB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC771B431E482FD80016DBEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC771B441E482FD80016DBEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC771B481E482FD80016DBEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC771B491E482FD80016DBEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC771B4C1E482FD80016DBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC771B4D1E482FD80016DBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC771B4F1E482FD80016DBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PushAnimator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LynRich.PushAnimator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC771B501E482FD80016DBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PushAnimator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LynRich.PushAnimator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC771B321E482FD80016DBEB /* Build configuration list for PBXProject "PushAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC771B4C1E482FD80016DBEB /* Debug */,
+				DC771B4D1E482FD80016DBEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC771B4E1E482FD80016DBEB /* Build configuration list for PBXNativeTarget "PushAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC771B4F1E482FD80016DBEB /* Debug */,
+				DC771B501E482FD80016DBEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC771B2F1E482FD80016DBEB /* Project object */;
+}
